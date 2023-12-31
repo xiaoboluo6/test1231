@@ -18,4 +18,9 @@ public class UserController {
     public String test() {
         return "1231";
     }
+
+    @GetMapping
+    public String test2() {
+        return "12316666";
+    }
 }
