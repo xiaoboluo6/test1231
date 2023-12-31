@@ -13,4 +13,9 @@ public class UserController {
     public String findAll() {
         return "hello";
     }
+
+    @GetMapping
+    public String test() {
+        return "1231";
+    }
 }
